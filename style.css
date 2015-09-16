@@ -1,0 +1,78 @@
+body{
+	background: url(background/2.png);
+	repeat;
+	color: white;
+}
+
+/*div{
+	border: 2px solid #4682b4;
+}*/
+
+#body{
+	margin: 0 auto;
+	max-width: 720px;
+	min-height: 450px;
+}
+
+#foto{
+	max-width: 200px;
+	float: left;
+	padding: 3px;
+}
+
+#img{
+	width: 100%;
+}
+
+#basic{
+	/*text-align: center;*/
+	min-height: 300px;
+}
+
+span{
+	color: #3CB371;
+	font-weight: 800;
+}
+
+.social{
+	text-decoration: none;
+}
+
+.social_img{
+	width: 24px;
+}
+
+.social_img:hover{
+	transform: rotate(-10deg) scale(1.5);
+}
+
+.spoilerbutton {
+	margin-left:auto;
+    margin-right:auto;
+    display:block;
+    background: #3CB371;
+	border-radius: 5px;
+	width:200px;    
+}
+
+.spoiler {
+    overflow:hidden;
+}
+
+.spoiler > div {
+    transition: margin 0.2s ease;
+}
+.spoilerbutton[value="Показать доп. информацю"] + .spoiler > div {
+    margin-top:-200%;
+}
+.spoilerbutton[value="Скрыть доп. информацю"] + .spoiler {
+    padding:5px;
+}
+
+#footer{
+	min-height: 75px;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 720px;
+}
+

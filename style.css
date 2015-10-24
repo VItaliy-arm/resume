@@ -11,7 +11,7 @@ body{
 #body{
 	margin: 0 auto;
 	max-width: 720px;
-	min-height: 450px;
+	min-height: 550px;
 }
 
 #foto{
@@ -26,6 +26,7 @@ body{
 
 #basic{
 	/*text-align: center;*/
+	padding-left: 250px;
 	min-height: 300px;
 }
 

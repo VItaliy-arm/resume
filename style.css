@@ -15,7 +15,7 @@ body{
 }
 
 #foto{
-	max-width: 200px;
+	width: 175px;
 	float: left;
 	padding: 3px;
 }
@@ -71,6 +71,7 @@ span{
 }
 
 #footer{
+	color: #3CB371;
 	min-height: 75px;
 	text-align: center;
 	margin: 0 auto;

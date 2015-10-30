@@ -2,6 +2,8 @@ body{
 	background: url(background/2.png);
 	repeat;
 	color: white;
+	font-family: Arial;
+	line-height: 1.4;
 }
 
 /*div{
@@ -11,10 +13,12 @@ body{
 #body{
 	margin: 0 auto;
 	max-width: 720px;
-	min-height: 550px;
+	min-height: 575px;
+	font-size: 11pt;
 }
 
 #foto{
+	margin-top: 25px;
 	width: 175px;
 	float: left;
 	padding: 3px;
@@ -24,9 +28,13 @@ body{
 	width: 100%;
 }
 
+span{
+	font-size: 14pt;
+}
+
 #basic{
 	/*text-align: center;*/
-	padding-left: 250px;
+	padding-left: 210px;
 	min-height: 300px;
 }
 
@@ -71,6 +79,7 @@ span{
 }
 
 #footer{
+	font-size: 14pt;
 	color: #3CB371;
 	min-height: 75px;
 	text-align: center;

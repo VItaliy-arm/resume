@@ -1,9 +1,9 @@
 body{
-	background: url(background/2.png);
+	background: url(background/3.png);
 	repeat;
 	color: white;
 	font-family: Arial;
-	line-height: 1.4;
+	line-height: 1.3;
 }
 
 /*div{
@@ -13,7 +13,7 @@ body{
 #body{
 	margin: 0 auto;
 	max-width: 720px;
-	min-height: 575px;
+	min-height: 615px;
 	font-size: 11pt;
 }
 
@@ -34,8 +34,26 @@ span{
 
 #basic{
 	/*text-align: center;*/
-	padding-left: 210px;
+	float: left;
 	min-height: 300px;
+	min-width: 350px;
+	padding-left: 25px;
+}
+
+#languages{
+	float: right;
+	margin-top: 15px;
+	font-size: 9pt;
+	line-height: 0.7;
+	text-align: right;
+}
+
+#rus{
+	font-size: 9pt;
+}
+
+#eng{
+	font-size: 9pt;
 }
 
 span{
@@ -43,8 +61,13 @@ span{
 	font-weight: 800;
 }
 
-.social{
+a{
 	text-decoration: none;
+	color: inherit;
+}
+
+a:active{
+	color: #4682b4;
 }
 
 .social_img{
@@ -71,12 +94,39 @@ span{
 .spoiler > div {
     transition: margin 0.2s ease;
 }
-.spoilerbutton[value="Показать доп. информацю"] + .spoiler > div {
+.spoilerbutton[value="Показать доп. информацию"] + .spoiler > div {
     margin-top:-200%;
 }
-.spoilerbutton[value="Скрыть доп. информацю"] + .spoiler {
+.spoilerbutton[value="Скрыть доп. информацию"] + .spoiler {
     padding:5px;
 }
+
+/* for eng. ver.*/
+
+.spoilerbutton_en {
+	margin-left:auto;
+    margin-right:auto;
+    display:block;
+    background: #3CB371;
+	border-radius: 5px;
+	width:200px;    
+}
+
+.spoiler_en {
+    overflow:hidden;
+}
+
+.spoiler_en > div {
+    transition: margin 0.2s ease;
+}
+.spoilerbutton_en[value="Show more information"] + .spoiler_en > div {
+    margin-top:-200%;
+}
+.spoilerbutton_en[value="Hide additional information"] + .spoiler_en {
+    padding:5px;
+}
+
+/*end*/
 
 #footer{
 	font-size: 14pt;

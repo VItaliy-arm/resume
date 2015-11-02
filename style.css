@@ -1,4 +1,5 @@
 body{
+	height: 100%;
 	background: url(background/3.png);
 	repeat;
 	color: white;
@@ -6,15 +7,28 @@ body{
 	line-height: 1.3;
 }
 
+html { 
+ position:relative; 
+ min-height:100%;
+}
+
+
+
 /*div{
 	border: 2px solid #4682b4;
 }*/
 
 #body{
 	margin: 0 auto;
-	max-width: 720px;
-	min-height: 615px;
+	width: 720px;
+	/*min-height: 615px;*/
 	font-size: 11pt;
+	padding-bottom: 150px;
+}
+
+#table{
+	display:table;
+	width: 720px;
 }
 
 #foto{
@@ -34,18 +48,18 @@ span{
 
 #basic{
 	/*text-align: center;*/
+	/*min-height: 300px;
+	min-width: 400px;*/
 	float: left;
-	min-height: 300px;
-	min-width: 350px;
 	padding-left: 25px;
 }
 
 #languages{
-	float: right;
 	margin-top: 15px;
 	font-size: 9pt;
 	line-height: 0.7;
 	text-align: right;
+	float: right;
 }
 
 #rus{
@@ -134,11 +148,14 @@ a:active{
 /*end*/
 
 #footer{
+	position: absolute;
+ 	bottom: 0;
 	font-size: 14pt;
 	color: #3CB371;
 	min-height: 75px;
 	text-align: center;
-	margin: 0 auto;
-	max-width: 720px;
+	width: 720px;
+	left:50%;
+	margin-left:-360px;
 }
 
